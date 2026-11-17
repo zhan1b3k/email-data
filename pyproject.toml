@@ -1,0 +1,16 @@
+[project]
+name = "pp"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "alibek",email = "alibek.yelgundiyev@gmail.com"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[all] (>=0.163.0,<0.164.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
